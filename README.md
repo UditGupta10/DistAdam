@@ -1,4 +1,5 @@
 # DistAdam
+Work done as part of the paper: https://ieeexplore.ieee.org/document/8990403
 Simulations for Large batch training using Adam Optimizer.  
 The notebook shows what changes are required to be done for Large batch training such that accuracy of small batch training is maintained.  
 When doing data parallel distributed training, the effective batch size for k workers is k\*n where n is the minibatch size of each worker. Therefore, data parallel distributed training is similar to doing Large batch training.  
